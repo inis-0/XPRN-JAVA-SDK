@@ -1,0 +1,13 @@
+debug: true
+
+server:
+  port: 80
+  tomcat:
+    max-http-form-post-size: 100MB
+    maxParameterCount: 100000
+  http2:
+    enabled: true
+
+spring:
+  profiles:
+    active: live

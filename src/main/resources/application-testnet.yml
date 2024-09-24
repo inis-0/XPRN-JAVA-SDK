@@ -1,0 +1,15 @@
+server:
+  port: 80
+  tomcat:
+    max-http-form-post-size: 100MB
+    maxParameterCount: 100000
+  http2:
+    enabled: true
+
+xprnetwork:
+  endpoints: http://testnet-api.alvosec.com, http://proton-testnet.cryptolions.io, http://api-protontest.nodeone.network:8888, http://tn1.protonnz.com:8888, http://testnet.proton.detroitledger.tech, http://proton-testnet.genereos.io, http://proton-testnet.edenia.cloud, http://api-testnet.artwebin.com, http://testnet-api.xprlabs.org, http://api.testnet.totalproton.tech, http://testnet-api.luminaryvisn.com, http://testnet.protonapi.blocksindia.com, http://test.proton.api.atomicassets.io, http://testnet.proton.pink.gg, http://xpr.testnet.eosdublin.io, http://api-testnet-proton.eosarabia.net, http://proton-public-testnet.neftyblocks.com
+  private-key:
+  permission:
+  from:
+  to:
+  memo: 

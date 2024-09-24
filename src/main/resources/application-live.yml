@@ -1,0 +1,19 @@
+server:
+  port: 80
+  tomcat:
+    max-http-form-post-size: 100MB
+    maxParameterCount: 100000
+  http2:
+    enabled: true
+
+
+
+
+xprnetwork:
+  endpoints: http://api.protonnz.com:8888, http://proton.protonuk.io, http://proton-api.alvosec.com, http://proton.eoscafeblock.com, http://api.protongroup.info:8888, http://proton.cryptolions.io, http://api.totalproton.tech, http://mainnet.brotonbp.com, http://proton.eu.eosamsterdam.net, https://api.rockerone.io, http://protonapi.blocksindia.com, http://mainnet-api.xprlabs.org, http://xpr.eosdublin.io, http://proton-public.neftyblocks.com, http://proton.genereos.io, http://api-proton.nodeone.network:8888, http://api.luminaryvisn.com
+  private-key:
+  permission:
+  from:
+  to:
+  memo:
+
